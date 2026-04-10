@@ -8,8 +8,3 @@ let Gallo = {
  zampe:2,
 };
 
-let outputGallo = document.getElementById("outputGallo");
-
-document.getElementById("BtnGallo").onclick = function() {
-  outputGallo.textContent = Gallo.descrivi();
-};

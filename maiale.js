@@ -8,8 +8,3 @@ let Maiale = {
  zampe:4,
 };
 
-let outputMaiale = document.getElementById("outputMaiale");
-
-document.getElementById("BtnMaiale").onclick = function() {
-  outputMaiale.textContent = Maiale.descrivi();
-};
